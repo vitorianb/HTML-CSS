@@ -1,0 +1,21 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 150px;
+}
+
+p {
+    text-align: center;
+}
+
+
+.filho1, .filho2, .filho3, .filho4 {
+    border: 0.5px solid black   
+}
+
+.filho1 {background: purple}
+.filho2 {background: rgb(131, 131, 131)}
+.filho3 {background: blueviolet}
+.filho4 {background: white}

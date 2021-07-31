@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+header h1 {
+    margin-top: 150px;
+	vertical-align: middle;
+    padding: 5px;
+    font-size: 100px;
+    color: yellow;
+    text-transform: uppercase; 
+	text-align: center;
+}
+
+header h2 {
+    text-align: center;
+	margin: 0px 50px 40px 0px;
+    font-size: 20px;
+    color:white;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;	
+}
+
+form label, form legend {
+	display:block;
+	color: #FFFFFF;
+	font-size: 17px;
+	margin: 0 0 10px 210px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px 210px;
+	padding: 10px 15px;
+	width: 50%;
+}
+
+.checkbox, .objetivo, .como_conheceu_a_resilia {
+	margin: 0 0 20px 210px;
+}
+
+.botao {
+	margin: 20px 100px 200px 400px;
+	padding: 5px 10px;
+	font-weight: bold;
+	background-color: yellow;
+	
+}
+
+footer {
+    text-align: center;
+}
+
+.Copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;   
+}
+

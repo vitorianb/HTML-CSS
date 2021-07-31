@@ -1,0 +1,149 @@
+.cabeçalho_principal {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: rgba(255, 255, 0, 0.316);
+    font-family: 'Raleway', sans-serif;
+    transition: 1s all;
+    margin: 1%;
+}
+
+.cabeçalho_principal:hover {
+    transform: scale(1.02);
+}   
+
+h1 {
+    text-transform: uppercase;
+    margin: 1%;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: bold;
+    color: violet;
+}
+
+.menu_principal {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 25px;
+}
+
+li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 2px 3px;    
+    padding: 2%;
+}
+
+a {
+    color: violet;
+}
+
+main  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    margin:2% 1% 0;
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+    font-weight: bold;
+    color: violet;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    margin:0% 1% 4%;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: violet;
+}
+
+.imagens_finas {
+    display: flex;
+    width: 220px;
+    height: 250px;
+    margin: 1.5%;
+    padding: 2%;
+    transition: 1s transform;
+}
+
+.imagens_largas {
+    display: flex;
+    width: 220px;
+    height: 170px;
+    margin: 1.5%;
+    padding: 2%;
+    transition: 1s transform;
+}  
+
+.container_linha_final {
+    display: flex;
+    width: 100%;
+}
+
+.imagens_largas:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.imagens_finas:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: rgba(255, 255, 0, 0.316);
+    font-family: 'Raleway', sans-serif;
+    padding: 2%;
+    margin-top: 8%;
+    font-size: 12px;
+}
+
+@media (max-width: 700px) {
+    .cabeçalho_principal {
+        font-size: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+    h1, h2, h3 {
+        display: none;
+    }
+    .menu_principal {
+        flex-direction: column;
+        justify-content: start;
+        width: 98%;
+        padding: 0%;
+        margin: auto;
+        padding:0.6%; 
+    }
+    li {
+        border: 1.5px solid violet;
+        padding: 2%;
+    }
+    li:hover {
+        transform: scale(1.05);
+    }
+    .imagens_finas, .imagens_largas {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        margin: 4%;
+        padding: 0%;
+    }
+    .container_linha_final {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

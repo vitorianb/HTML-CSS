@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário Resília</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <div class="caixa">
+            <header>
+                    <h1>Resilia</h1>    
+                    <h2>Faça parte do time de resilientes!</h2>
+            </header>        
+            <main>    
+                <form>
+                    <label for="nomecompleto">Nome completo</label>
+                    <input type="text" id="nomecompleto" class="input-padrao" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) xxxxx-xxxx">
+
+                    <label for="datadenascimento">Data de nascimento</label>
+                    <input type="text" id="datadenascimento" class="input-padrao" required placeholder="XX/XX/XXXX">
+                        
+                    <fieldset>
+                        <legend>Objetivo</legend>
+                            <select class="objetivo">
+                                <option>Mudar de carreira</option>
+                                <option>Conseguir um emprego</option>
+                                <option>Aprender programação</option>
+                                <option>Aprender soft skills</option>
+                                <option>Conhecer profissionais do mercado</option>
+                                <option>Ter mentoria profissional</option>
+                                <option>Acesso a comunidade de programadores</option>
+                                <option>Outros</option> 
+                            </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Como você conheceu a Resilia?</legend>
+                            <select class="como_conheceu_a_resilia">
+                                <option>Anuncio no facebook/instagram</option>
+                                <option>Anuncio no google ou outros sites</option>
+                                <option>Divulgação de uma empresa parceira</option>
+                                <option>Imprensa (Jornais, TV, revistas)</option>
+                                <option>Indicação de um amigo</option>
+                                <option>Panfleto</option>
+                                <option>Pesquisa no google</option>
+                                <option>Outros</option> 
+                            </select>
+                    </fieldset>
+                    
+                    <label class="checkbox"><input type="checkbox" checked>Você concorda com a nossa politica de privacidade?</label>
+                    <input type="submit" value="Enviar formulário" class="botao">
+                </form> 
+            </main>
+        </div>
+        <footer>
+            <p class="Copyright">&copy; Copyright Formulário Futuros Resilientes - 2021</p>
+        </footer> 
+    </body>
+
+</html>
